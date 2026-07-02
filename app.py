@@ -12,7 +12,7 @@ if not "lista_mensagens" in st.session_state:
     st.session_state["lista_mensagens"] = []
 
 # contêiner com altura fixa e scroll automático
-chat_container = st.container(height=250)
+chat_container = st.container(height=500)
 
 with chat_container:
     for mensagem in st.session_state["lista_mensagens"]:
