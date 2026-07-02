@@ -1,0 +1,20 @@
+# segredos - nunca subir
+.streamlit/secrets.toml
+
+# ambiente virtual Python
+venv/
+.venv/
+env/
+
+# cache do Python
+__pycache__/
+*.pyc
+
+# arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# configs de editores
+.vscode/
+.idea/
+.geany
